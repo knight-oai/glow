@@ -1,5 +1,8 @@
-tensorflow-gpu==1.8.0
+tensorflow-gpu==2.6.4
 keras==2.2.0
 pillow==5.2.0
 toposort==1.5
 horovod==0.13.8
+bleach>=3.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
